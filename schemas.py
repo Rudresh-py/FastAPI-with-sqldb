@@ -20,6 +20,7 @@ class Item(ItemBase):
 
 class UserBase(BaseModel):
     email: str
+    is_active: bool
 
 
 class UserCreate(UserBase):
